@@ -6,7 +6,7 @@ plugins {
 }
 
 application {
-	mainClassName = "pl.karol202.uranium.swing.test.MainKt"
+	mainClassName = "pl.karol202.uranium.swing.sample.MainKt"
 	applicationDefaultJvmArgs = listOf(
 			"-Dsun.awt.disablegrab=true",
 			"-Djdk.gtk.version=2.2" /* OpenJDK 8u242 switched default implementation to GTK3,
