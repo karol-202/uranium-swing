@@ -6,7 +6,7 @@ plugins {
 }
 
 dependencies {
-	api("pl.karol202.uranium:uranium-core:0.1")
+	api("pl.karol202.uranium:uranium-core:0.2")
 
 	implementation(kotlin("stdlib-jdk8"))
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7")
@@ -24,7 +24,7 @@ tasks.register<Jar>("sourcesJar") {
 
 publishing {
 	publications {
-		create<MavenPublication>("swing") {
+		create<MavenPublication>("uranium-swing") {
 			from(components["java"])
 			artifact(tasks["sourcesJar"])
 		}
