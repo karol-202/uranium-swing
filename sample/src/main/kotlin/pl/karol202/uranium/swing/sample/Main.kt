@@ -1,4 +1,4 @@
-package pl.karol202.uranium.swing.test
+package pl.karol202.uranium.swing.sample
 
 import pl.karol202.uranium.core.common.*
 import pl.karol202.uranium.core.element.component
@@ -30,7 +30,7 @@ import javax.swing.UIManager
 fun main()
 {
 	UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel")
-	SwingFrame.withRoot { counter(0) }.withTitle("Uranium test").withSize(640, 480).show()
+	SwingFrame.withRoot { counter(0) }.withTitle("Uranium sample").withSize(640, 480).show()
 }
 
 class CounterComponent(props: BasicProps) : SwingAbstractAppComponent<BasicProps>(props),

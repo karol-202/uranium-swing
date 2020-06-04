@@ -1,4 +1,4 @@
-package pl.karol202.uranium.swing.test
+package pl.karol202.uranium.swing.sample
 
 import pl.karol202.uranium.core.common.*
 import pl.karol202.uranium.core.element.component
@@ -6,8 +6,8 @@ import pl.karol202.uranium.swing.control.text.onApply
 import pl.karol202.uranium.swing.control.text.onTextChange
 import pl.karol202.uranium.swing.control.text.text
 import pl.karol202.uranium.swing.control.text.textField
-import pl.karol202.uranium.swing.test.EditorComponent.Props
-import pl.karol202.uranium.swing.test.EditorComponent.State
+import pl.karol202.uranium.swing.sample.EditorComponent.Props
+import pl.karol202.uranium.swing.sample.EditorComponent.State
 import pl.karol202.uranium.swing.SwingRenderScope
 import pl.karol202.uranium.swing.component.SwingAbstractAppComponent
 
