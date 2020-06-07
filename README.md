@@ -1,5 +1,8 @@
 # uranium-swing
 
+![Deployment](
+https://github.com/karol-202/uranium-swing/workflows/Deployment/badge.svg
+)
 [ ![Download](https://api.bintray.com/packages/karol202/uranium/uranium-swing/images/download.svg) ](
 https://bintray.com/karol202/uranium/uranium-swing/_latestVersion
 )
