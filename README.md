@@ -29,14 +29,14 @@ by including following entry in `dependencies` section.
 Gradle (Kotlin DSL):
 ```kotlin
 dependencies {
-    implementation("pl.karol202.uranium:uranium-swing:0.2")
+    implementation("pl.karol202.uranium:uranium-swing:0.2.1")
 }
 ```
 
 Gradle (Groovy):
 ```groovy
 dependencies {
-    implementation "pl.karol202.uranium:uranium-swing:0.2"
+    implementation "pl.karol202.uranium:uranium-swing:0.2.1"
 }
 ```
 
@@ -45,7 +45,7 @@ Maven:
 <dependency>
     <groupId>pl.karol202.uranium</groupId>
     <artifactId>uranium-swing</artifactId>
-    <version>0.2</version>
+    <version>0.2.1</version>
 </dependency>
 ```
 
