@@ -23,33 +23,32 @@ uranium library works, visit the [Uranium page](https://github.com/karol-202/ura
 ## How to install?
 
 uranium-swing is located in [jCenter](https://bintray.com/karol202/uranium/uranium-swing),
-you can add it as a dependency to your Gradle or Maven project
-by including following entry in `dependencies` section.
+you can add it as a dependency to your Gradle or Maven project.
 
 Gradle (Kotlin DSL):
 ```kotlin
 dependencies {
-    implementation("pl.karol202.uranium:uranium-swing:0.2.1")
+    implementation("pl.karol202.uranium.swing:uranium-swing:0.2.2")
 }
 ```
 
 Gradle (Groovy):
 ```groovy
 dependencies {
-    implementation "pl.karol202.uranium:uranium-swing:0.2.1"
+    implementation "pl.karol202.uranium.swing:uranium-swing:0.2.2"
 }
 ```
 
 Maven:
 ```xml
 <dependency>
-    <groupId>pl.karol202.uranium</groupId>
+    <groupId>pl.karol202.uranium.swing</groupId>
     <artifactId>uranium-swing</artifactId>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
 </dependency>
 ```
 
-Make sure that you have jCenter in your repositories `section`:
+Make sure that you have jCenter in your `repositories` section:
 ```groovy
 repositories {
     jcenter()

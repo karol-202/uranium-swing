@@ -6,7 +6,7 @@ plugins {
 }
 
 dependencies {
-	api("pl.karol202.uranium:uranium-core-jvm:0.2.1")
+	api("pl.karol202.uranium.core:uranium-core-jvm:0.2.5")
 
 	implementation(kotlin("stdlib-jdk8"))
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7")

@@ -3,8 +3,8 @@ plugins {
 }
 
 allprojects {
-    group = "pl.karol202.uranium"
-    version = "0.2.1"
+    group = "pl.karol202.uranium.swing"
+    version = "0.2.2"
 
     repositories {
         jcenter()
